@@ -39,7 +39,6 @@ You can customize the resume's appearance by using the following command-line ar
 - **font-color**: Sets the font color in hexadecimal (default: black)
 - **background-color**: Sets the background color in hexadecimal (default: white)
 
-- (Sample PDF generated using the command is attached (my_resume.py))
 
 
 **Example :**
@@ -48,6 +47,8 @@ python gen.py --output-file "my_resume.pdf" --font-size 12 --font-color "#0000FF
 ```
 This will create a PDF named my_resume.pdf with:
 
-Font size: 12
-Font color: Blue (#0000FF)
-Background color: Light Yellow (#FFFFE0)
+- **Font size**: 12
+- **Font color**: Blue (#0000FF)
+- **Background color**: Light Yellow (#FFFFE0)
+- (Sample PDF generated using the command is attached (my_resume.py))
+
