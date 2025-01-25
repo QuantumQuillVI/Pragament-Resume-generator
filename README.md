@@ -34,15 +34,15 @@ This will generate a PDF file named resume.pdf in the current folder with the de
 ### 2. Customizing the Output
 You can customize the resume's appearance by using the following command-line arguments:
 
-- output-file: Specifies the output file name (default: resume.pdf)
-- font-size: Adjusts the font size (default: 10)
-- font-color: Sets the font color in hexadecimal (default: black)
-- background-color: Sets the background color in hexadecimal (default: white)
+- **output-file**: Specifies the output file name (default: resume.pdf)
+- **font-size**: Adjusts the font size (default: 10)
+- **font-color**: Sets the font color in hexadecimal (default: black)
+- **background-color**: Sets the background color in hexadecimal (default: white)
 
-(Sample PDF generated using the command is attached (my_resume.py))
+- (Sample PDF generated using the command is attached (my_resume.py))
 
 
-Example : 
+**Example :**
 ```bash
 python gen.py --output-file "my_resume.pdf" --font-size 12 --font-color "#0000FF" --background-color "#FFFFE0"
 ```
