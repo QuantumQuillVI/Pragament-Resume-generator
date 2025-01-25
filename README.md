@@ -1,6 +1,6 @@
 # Resume PDF Generator
 
-This Python script generates a customizable resume in PDF format. It allows you to modify the font size, font color, and background color, and saves the output as a PDF file. You can also specify the output filename.
+The Python script (gen.py) generates a customizable resume in PDF format. It allows you to modify the font size, font color, and background color, and saves the output as a PDF file. You can also specify the output filename.
 
 ## Features
 - **Adjustable font size**
@@ -11,9 +11,16 @@ This Python script generates a customizable resume in PDF format. It allows you 
 
 ---
 
-## Installation
+### 1. Dependencies : 
+To run the script, you'll need Python and the required libraries.
+```bash
+python --version
+```
 
-To run the script, you'll need Python and the required libraries. Follow the instructions below to set up the environment.
+The script uses the reportlab library to generate PDFs. You can install the required dependencies using pip: 
+```bash
+pip install reportlab
+```
 
 ### 1. Clone the repository 
 
@@ -21,9 +28,3 @@ To run the script, you'll need Python and the required libraries. Follow the ins
 git clone https://github.com/yourusername/resume-pdf-generator.git
 cd resume-pdf-generator
 ```
-
-### 2. Dependencies : 
-The script uses the reportlab library to generate PDFs. You can install the required dependencies using pip: 
-```bash
-git clone https://github.com/yourusername/resume-pdf-generator.git
-cd resume-pdf-generator
