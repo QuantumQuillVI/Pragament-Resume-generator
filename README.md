@@ -26,9 +26,10 @@ pip install reportlab
 ### 1. Basic Command
 To run the script and generate the resume PDF with the default settings (font size 10, black font, white background):
 ```bash
-python generate_resume.py
+python gen.py
 ```
 This will generate a PDF file named resume.pdf in the current folder with the default font size and colors.
+(Sample PDF generated using the command is attached (resume.py))
 
 ### 2. Customizing the Output
 You can customize the resume's appearance by using the following command-line arguments:
@@ -37,10 +38,12 @@ You can customize the resume's appearance by using the following command-line ar
 --font-size: Adjusts the font size (default: 10)
 --font-color: Sets the font color in hexadecimal (default: black)
 --background-color: Sets the background color in hexadecimal (default: white)
+(Sample PDF generated using the command is attached (my_resume.py))
+
 
 Example : 
 ```bash
-python generate_resume.py --output-file "my_resume.pdf" --font-size 12 --font-color "#0000FF" --background-color "#FFFFE0"
+python gen.py --output-file "my_resume.pdf" --font-size 12 --font-color "#0000FF" --background-color "#FFFFE0"
 ```
 This will create a PDF named my_resume.pdf with:
 
