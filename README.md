@@ -18,7 +18,7 @@ To run the script, you'll need Python and the required libraries. Follow the ins
 ### 1. Clone the repository 
 ```bash
 git clone https://github.com/yourusername/resume-pdf-generator.git
-cd resume-pdf-generator
+cd resume-pdf-generator```
 
 ### 2. Dependencies : 
 The script uses the reportlab library to generate PDFs. You can install the required dependencies using pip: 
