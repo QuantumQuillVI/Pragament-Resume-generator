@@ -16,11 +16,11 @@ This Python script generates a customizable resume in PDF format. It allows you 
 To run the script, you'll need Python and the required libraries. Follow the instructions below to set up the environment.
 
 ### 1. Clone the repository 
-\`\`\`
+
 ```bash
 git clone https://github.com/yourusername/resume-pdf-generator.git
 cd resume-pdf-generator
-\`\`\`
+```
 
 ### 2. Dependencies : 
 The script uses the reportlab library to generate PDFs. You can install the required dependencies using pip: 
